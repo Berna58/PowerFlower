@@ -1,0 +1,53 @@
+<ion-header>
+  <ion-toolbar color="verde">
+    <ion-title class="ion-text-center">Power Flower</ion-title>
+    <ion-buttons slot="end">
+    </ion-buttons>
+    <ion-buttons slot="start">
+      <!-- Botão Menu -->
+      <ion-menu-button menu="main-menu" color="light"></ion-menu-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-fab color="verde" vertical="top" horizontal="end" slot="fixed">
+      <ion-fab-button color="verde">
+          
+          <ion-icon name="cart" class="cart-icon"></ion-icon>
+      </ion-fab-button>
+  </ion-fab>
+  <h1>Detalhes da Faturação</h1>
+  <br>
+  <div class="form">
+    <ion-item lines='none'>
+      <ion-input [(ngModel)]='nome' placeholder='Nome'></ion-input>
+    </ion-item>
+
+    <ion-item lines='none'>
+      <ion-input [(ngModel)]='morada' placeholder='Morada'></ion-input>
+    </ion-item>
+
+    <ion-item lines='none'>
+      <ion-input [(ngModel)]='codigopostal' placeholder='Código Postal'></ion-input>
+    </ion-item>
+
+    <ion-item lines='none'>
+      <ion-input [(ngModel)]='telefone' placeholder='Telefone'></ion-input>
+    </ion-item>
+
+    <ion-item lines='none'>
+      <ion-input [(ngModel)]='email' placeholder='Email'></ion-input>
+    </ion-item>
+    
+    
+    
+    <ion-item>
+      <ion-label>Data</ion-label>
+      <ion-datetime displayFormat="D-MMM-YYYY / H:mm" min="1997" max="2221" value="2005-06-17T11:06Z"></ion-datetime>
+    </ion-item>
+
+
+    <ion-button (click)="presentToast()" name="bluetooth" color="verde" routerLink="/pagina-inicial" expand='block'>Finalizar Encomenda</ion-button>
+  </div>
+</ion-content>

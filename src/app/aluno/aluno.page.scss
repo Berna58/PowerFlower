@@ -1,0 +1,48 @@
+.logo{
+    margin-top: 20px;
+    img{
+        height: 200px;
+    }
+  }
+  
+  .form{
+    ion-item{
+        border-radius: 5px;
+        border-color: grey;
+        border-width: 2px;
+        border-style: solid;
+        margin-bottom: 10px;
+    }
+  }
+
+  
+  ion-toolbar {
+    --background: transparent;
+  }
+
+  .card1 {
+      ion-card {
+          box-shadow: inset;
+
+
+      }
+
+      ion-card-title{
+          text-align: left;
+      }
+
+      ion-card-subtitle{
+          text-align: right;
+          top: 100%;
+          position: relative;
+      }
+
+      ion-button{
+        --background: #66915e;
+        justify-content: center;
+        margin-bottom: 20px;
+        text-transform: capitalize;
+        margin-left: 10px;
+        margin-right: 10px;
+        }
+  }

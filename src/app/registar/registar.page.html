@@ -1,0 +1,30 @@
+<ion-content class="ion-padding ion-text-center">
+
+  <div class="logo">
+    <img src="../../assets/icon/logo3.png">
+  </div>
+
+  <div class="form">
+    <ion-item lines='none'>
+      <ion-input [(ngModel)]='nome' placeholder='Nome'></ion-input>
+    </ion-item>
+
+    <ion-item lines='none'>
+      <ion-input [(ngModel)]='email' placeholder='Email'></ion-input>
+    </ion-item>
+
+    <ion-item lines='none'>
+      <ion-input [(ngModel)]='password' placeholder='Password' type='password'></ion-input>
+    </ion-item>
+
+    <ion-item lines='none'>
+      <ion-input [(ngModel)]='confirmpassword' placeholder='Confirma Password' type='password'></ion-input>
+    </ion-item>
+    <ion-button color='verde' expand='block'>Registar</ion-button>
+  </div>
+  
+    <ion-button color="medium" routerLink="/login" fill='clear'>Login</ion-button>
+    <br>
+    <ion-button color="medium" routerLink="/pagina-inicial" fill='clear'>Registar Mais Tarde</ion-button>
+
+</ion-content>

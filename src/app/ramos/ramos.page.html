@@ -1,0 +1,33 @@
+<ion-header>
+  <ion-toolbar color="verde">
+    <ion-title class="ion-text-center">Power Flower</ion-title>
+    <ion-buttons slot="end">
+    </ion-buttons>
+    <ion-buttons slot="start">
+      <!-- Botão Menu -->
+      <ion-menu-button menu="main-menu" color="light"></ion-menu-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-fab color="verde" vertical="top" horizontal="end" slot="fixed">
+      <ion-fab-button color="verde">
+          
+          <ion-icon name="cart" class="cart-icon"></ion-icon>
+      </ion-fab-button>
+  </ion-fab>
+  <div class="card1">
+  <ion-card>
+    <!-- Imagem Tom Cruise -->
+    <img src="../../assets/icon/ramo1.jpg"/>
+    <ion-card-header>
+      <ion-card-title>Joyful Life</ion-card-title> 
+      <ion-card-subtitle>desde 39,00€</ion-card-subtitle>
+    </ion-card-header>
+    <ion-button routerLink="/comprar" color="verde" size="medium" expand="block">
+      <ion-icon name="cart" class="cart-icon"></ion-icon>
+    </ion-button>
+  </ion-card>
+  </div>
+</ion-content>

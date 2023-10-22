@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-toolbar color="verde">
+    <ion-title class="ion-text-center">Power Flower</ion-title>
+    <ion-buttons slot="end">
+    </ion-buttons>
+    <ion-buttons slot="start">
+      <!-- Botão Menu -->
+      <ion-menu-button menu="main-menu" color="light"></ion-menu-button>
+    </ion-buttons>
+  </ion-toolbar>
+  <h1>Loja Online</h1>
+</ion-header>
+
+<ion-content>
+  <ion-fab color="verde" vertical="top" horizontal="end" slot="fixed">
+      <ion-fab-button color="verde" (click)="openPopover($event)">
+          <ion-icon name="cart" class="cart-icon"></ion-icon>
+      </ion-fab-button>
+  </ion-fab>
+  <ion-card routerLink="/ramos">
+    <!-- Imagem Tom Cruise -->
+    <img src="../../assets/icon/abaramo.png"/>
+  </ion-card>
+</ion-content>

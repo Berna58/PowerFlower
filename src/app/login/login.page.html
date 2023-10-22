@@ -1,0 +1,20 @@
+<ion-content class="ion-padding ion-text-center">
+
+  <div class="logo">
+    <img src="../../assets/icon/logo3.png">
+  </div>
+
+  <div class="form">
+    <ion-item lines='none'>
+      <ion-input [(ngModel)]='email' placeholder='Enter email'></ion-input>
+    </ion-item>
+
+    <ion-item lines='none'>
+      <ion-input [(ngModel)]='password' placeholder='Password' type='password'></ion-input>
+    </ion-item>
+
+    <ion-button color="verde" routerLink="/pagina-inicial" expand='block'>Login</ion-button>
+  </div>
+    <ion-button color="medium" routerLink="/registar" fill='clear'>Registar</ion-button>
+
+</ion-content>

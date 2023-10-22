@@ -1,0 +1,29 @@
+.logo{
+    margin-top: 20px;
+    img{
+        height: 200px;
+    }
+  }
+  
+  .form{
+    ion-item{
+        border-radius: 5px;
+        border-color: grey;
+        border-width: 2px;
+        border-style: solid;
+        margin-bottom: 10px;
+    }
+  }
+
+  ion-button{
+    text-transform: none;
+    --background: linear-gradient(10deg, #54774D, #21311e);
+  }
+
+  ion-content {
+    --background: linear-gradient(10deg, #54774D, #21311e);
+  }
+  
+  ion-toolbar {
+    --background: transparent;
+  }
